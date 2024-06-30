@@ -1,0 +1,11 @@
+{
+  "name": "entrega_03",
+  "version": "1.0.0",
+  "description": "dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chikiza",
+  "license": "ISC"
+}
