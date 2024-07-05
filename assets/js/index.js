@@ -14,25 +14,23 @@ btnCat.addEventListener('click', () =>{
     .catch(error => console.log(error))
 })
 
-const createChart = () => {
-    const ctx = document.getElementById('myChart');
+const ctx = document.getElementById('myChart');
 
-  new Chart(ctx, {
-    type: 'polarArea',
+const myChart = new Chart(ctx, {
+    type: 'bar',
     data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-      datasets: [{
+    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    datasets: [{
         label: '# of Votes',
         data: [12, 19, 3, 5, 2, 3],
         borderWidth: 1
-      }]
+    }]
     },
     options: {
-      scales: {
+        scales: {
         y: {
-          beginAtZero: true
+            beginAtZero: true
         }
-      }
     }
-  });
-}
+    } 
+    });

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/assets/css/style.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script defer src="/assets/js/index.js"></script>
     <title>Entrega 03</title>
 </head>
@@ -14,9 +13,12 @@
         <h1>Gatitos</h1>
         <div id="cat-img-container"></div>
         <button id="btn-cat">Obtener un gato</button>
-        <div>
-            <canvas id="myChart"> aqui va el grafico </canvas>
-        </div>
+        
+        <section class="content">
+            <h2>Chart</h2>
+        <canvas id="myChart" width="400px" height="400px"></canvas>
+        </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
